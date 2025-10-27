@@ -1,0 +1,7 @@
+/* Reset mínimo e full screen */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; }
+
+/* Anula estilos padrão do template Vite */
+#root { max-width: none; margin: 0; padding: 0; }
